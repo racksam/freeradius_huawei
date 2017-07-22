@@ -1,0 +1,37 @@
+# -*- text -*-
+# Copyright (C) 2017 http://racksam.github.io
+##############################################################################
+#
+#	Dictionary for Huawei3.  
+#
+#	Organized by http://racksam.github.io
+#
+##############################################################################
+
+VENDOR		Huawei3				2017
+
+BEGIN-VENDOR	Huawei3
+
+ATTRIBUTE	Remanent-Volume					80	integer
+ATTRIBUTE	Tariff-Switch-Interval				81	integer
+ATTRIBUTE	In-Kb-Before-T-Switch				111	integer
+ATTRIBUTE	Out-Kb-Before-T-Switch				112	integer
+ATTRIBUTE	In-Pkts-Before-T-Switch				113	integer
+ATTRIBUTE	Out-Pkts-Before-T-Switch			114	integer
+ATTRIBUTE	In-Kb-After-T-Switch				115	integer
+ATTRIBUTE	Out-Kb-After-T-Switch				116	integer
+ATTRIBUTE	In-Pkts-After-T-Switch				117	integer
+ATTRIBUTE	Out-Pkts-After-T-Switch				118	integer
+ATTRIBUTE	Input-Peak-Rate					121	integer
+ATTRIBUTE	Input-Average-Rate				122	integer
+ATTRIBUTE	Input-Basic-Rate				123	integer
+ATTRIBUTE	Output-Peak-Rate				124	integer
+ATTRIBUTE	Output-Average-Rate				125	integer
+ATTRIBUTE	Output-Basic-Rate				126	integer
+ATTRIBUTE	Online-User-Id					127	integer
+ATTRIBUTE	Connect-port					128	string
+ATTRIBUTE	Ascend-Client-Primary-Dns			135	string
+ATTRIBUTE	Ascend-Client-Secondary-Dns			136	string
+
+END-VENDOR	Huawei3
+

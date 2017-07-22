@@ -1,0 +1,68 @@
+# -*- text -*-
+# Copyright (C) 2017 http://racksam.github.io
+##############################################################################
+#
+#	Dictionary for Huawei2.  
+#
+#	Organized by http://racksam.github.io
+#
+##############################################################################
+
+VENDOR		Huawei2				2017
+
+BEGIN-VENDOR	Huawei2
+
+ATTRIBUTE	HW-Input-Committed-Burst-Size			1	integer
+ATTRIBUTE	HW-Input-Committed-Information-Rate		2	integer
+ATTRIBUTE	HW-Input-Peak-Information-Rate			3	integer
+ATTRIBUTE	HW-Output-Committed-Burst-Size			4	integer
+ATTRIBUTE	HW-Output-Committed-Information-Rate		5	integer
+ATTRIBUTE	HW-Output-Peak-Information-Rate			6	integer
+ATTRIBUTE	HW-Input-Kilobytes-Before-Tariff-Switch		7	integer
+ATTRIBUTE	HW-Output-Kilobytes-Before-Tariff-Switch	8	integer
+ATTRIBUTE	HW-Input-Packets-Before-Tariff-Switch		9	integer
+ATTRIBUTE	HW-Output-Packets-Before-Tariff-Switch		10	integer
+ATTRIBUTE	HW-Input-Kilobytes-After-Tariff-Switch		11	integer
+ATTRIBUTE	HW-Output-Kilobytes-After-Tariff-Switch		12	integer
+ATTRIBUTE	HW-Input-Packets-After-Tariff-Switch		13	integer
+ATTRIBUTE	HW-Output-Packets-After-Tariff-Switch		14	integer
+ATTRIBUTE	HW-Remanent-Volume				15	integer
+ATTRIBUTE	HW-Tariff-Switch-Interval			16	integer
+ATTRIBUTE	HW-Command					20	integer
+ATTRIBUTE	HW-Priority					22	integer
+ATTRIBUTE	HW-Control-Identifier				24	integer
+ATTRIBUTE	HW-Result-Code					25	integer
+ATTRIBUTE	HW-Connect-ID					26	integer
+ATTRIBUTE	HW-Portal-URL					27	string
+ATTRIBUTE	HW-FTP-Directory				28	string
+ATTRIBUTE	HW-Exec-Privilege				29	integer
+ATTRIBUTE	HW-QOS-Profile-Name				31	string
+ATTRIBUTE	HW-NAS-Startup-Time-Stamp			59	integer
+ATTRIBUTE	HW-IP-Host-Address				60	string
+ATTRIBUTE	HW-Reduced-CIR					79	integer
+ATTRIBUTE	HW-Tunnel-Session-Limit				80	integer
+ATTRIBUTE	HW-Zone-Name					81	string
+ATTRIBUTE	HW-Data-Filter					82	string
+ATTRIBUTE	HW-Access-Service				83	string
+ATTRIBUTE	HW-Accounting-Level				84	integer
+ATTRIBUTE	HW-Portal-Mode					85	integer
+ATTRIBUTE	HW-DPI-Policy-Name				86	string
+ATTRIBUTE	HW-Policy-Route					87	string
+ATTRIBUTE	HW-Framed-Pool					88	string
+ATTRIBUTE	HW-L2TP-Terminate-Cause				89	string
+ATTRIBUTE	HW-Queue-Profile				91	string
+ATTRIBUTE	HW-Layer4-Session-Limit				92	integer
+ATTRIBUTE	HW-Multicast-Profile-Name			93	string
+ATTRIBUTE	HW-VPN-Instance					94	integer
+ATTRIBUTE	HW-Policy-Name					95	string
+ATTRIBUTE	HW-Tunnel-Group-Name				96	string
+ATTRIBUTE	HW-Client-Primary-DNS				135	string
+ATTRIBUTE	HW-Client-Secondary-DNS				136	string
+ATTRIBUTE	HW-Domain-Name					138	string
+ATTRIBUTE	HW-ANCP-Profile					139	string
+ATTRIBUTE	HW-Web-URL					253	string
+ATTRIBUTE	HW-Version					254	string
+ATTRIBUTE	HW-Product-ID					255	string
+
+END-VENDOR	Huawei2
+
