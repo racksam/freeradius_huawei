@@ -26,4 +26,4 @@
     mysql> source ./import_dictionary_huawei.sql
     ```
     
-参考：[华为RADIUS属性](02-RADIUS-Huawei.htm)    
+参考：[华为RADIUS属性](http://htmlpreview.github.io/?https://github.com/racksam/freeradius_huawei/blob/master/02-RADIUS-Huawei.htm)    
